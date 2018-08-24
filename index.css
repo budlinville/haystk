@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#Signup {
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	width:30em;
+	margin-top: -9em; /*set to a negative number 1/2 of your height*/
+	margin-left: -15em; /*set to a negative number 1/2 of your width*/
+	border: 1px solid #ccc;
+	background-color: #473DA1;
+	padding: 10px;
+}
+
+#Login {
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	width:30em;
+	margin-top: -9em; /*set to a negative number 1/2 of your height*/
+	margin-left: -15em; /*set to a negative number 1/2 of your width*/
+	border: 1px solid #ccc;
+	background-color: #473DA1;
+	padding: 10px;
+}
+
+#SignupBG {
+	background-color:#EDECE4;
+	overflow-y: scroll;
+	position: absolute;
+}
+
+#LoginBG {
+	background-color:#EDECE4;
+	overflow-y: scroll;
+	position: absolute;
+}
